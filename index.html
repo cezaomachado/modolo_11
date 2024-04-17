@@ -1,0 +1,71 @@
+<!-- Salve este código como index.html -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilo.css">
+<title>Loja Virtual</title>
+</head>
+<body>
+    <!-- Adicione esta parte no cabeçalho do seu index.html -->
+<header>
+    <div class="container header-container">
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre a Loja</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+        </ul>
+      </nav>
+      <button id="carrinho" onclick="abrirCarrinho()">Carrinho</button>
+    </div>
+  </header>
+  
+
+<!-- Seção Sobre a Loja -->
+<section id="sobre">
+  <div class="container">
+    <div class="imagem">
+      <img src="https://cdn-valenoticia.nuneshost.com/wp-content/uploads/2022/04/image00004.jpeg" alt="Imagem da Loja">
+    </div>
+    <div class="texto">
+      <h2>Sobre a Loja</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores necessitatibus ratione aliquam dolorem eligendi quisquam sint rem quasi quia reiciendis facere tenetur magnam placeat, perferendis iusto quis. Aliquam, repellat aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi placeat harum ipsa. Ipsa provident rerum hic cum consequatur tempore voluptatem consectetur, molestias minus labore harum dolorum nihil autem, a repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nam ratione fugiat, perferendis officiis explicabo tempora repellat, possimus, quae obcaecati alias nesciunt rerum tenetur ipsam sit illo perspiciatis ducimus modi.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Seção de Produtos -->
+<section id="produtos">
+  <div class="container">
+    <div class="produto">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSzILus3y2H7gdkRHWzzCMaPyo7ZH0jo4xN91wJOoprZJsYEd1ujEZelmx_ZG5e7Kt1JfY88Pv0gj8OOn0UiNiCVuLxweKTpPjT5CqKniUZXRZ3jJO6XmpV&usqp=CAE" alt="Nome do Produto">
+        <h3>Produto 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam suscipit nisi quisquam alias consequuntur vitae quaerat esse commodi nulla voluptate! Odio, quos soluta? Dolorem sint ullam placeat dicta veritatis! Voluptatibus.</p>
+        <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR0pYjEVP_rVfvLJ5E5aojTvZmXALfx8QOYbt54hKvCUdWtqhaUTSMnNS1B68siPGzgWwPsYERkynHRX6Dus3GzRaY6JYQPm2M2q9cZDnXqEjxZCZThp4Kpuw&usqp=CAE" alt="Nome do Produto">
+        <h3>Produto 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam suscipit nisi quisquam alias consequuntur vitae quaerat esse commodi nulla voluptate! Odio, quos soluta? Dolorem sint ullam placeat dicta veritatis! Voluptatibus.</p>
+        <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSzILus3y2H7gdkRHWzzCMaPyo7ZH0jo4xN91wJOoprZJsYEd1ujEZelmx_ZG5e7Kt1JfY88Pv0gj8OOn0UiNiCVuLxweKTpPjT5CqKniUZXRZ3jJO6XmpV&usqp=CAE" alt="Nome do Produto">
+        <h3>Produto 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam suscipit nisi quisquam alias consequuntur vitae quaerat esse commodi nulla voluptate! Odio, quos soluta? Dolorem sint ullam placeat dicta veritatis! Voluptatibus.</p>
+        <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSzILus3y2H7gdkRHWzzCMaPyo7ZH0jo4xN91wJOoprZJsYEd1ujEZelmx_ZG5e7Kt1JfY88Pv0gj8OOn0UiNiCVuLxweKTpPjT5CqKniUZXRZ3jJO6XmpV&usqp=CAE" alt="Nome do Produto">
+        <h3>Produto 4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam suscipit nisi quisquam alias consequuntur vitae quaerat esse commodi nulla voluptate! Odio, quos soluta? Dolorem sint ullam placeat dicta veritatis! Voluptatibus.</p>
+        <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+      </div>
+    <!-- Repita o bloco acima para os outros 3 produtos -->
+  </div>
+</section>
+
+<script src="java.js"></script>
+</body>
+</html>

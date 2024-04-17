@@ -1,0 +1,116 @@
+/* Atualize seu styles.css com estas regras */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #5a2d82; /* Cor secundária para o texto */
+    background-color: #fff; /* Cor principal para o fundo */
+  }
+  
+  /* Atualize seu styles.css com estas regras */
+header {
+    background-color: #fff; /* Cor principal */
+    color: #5a2d82; /* Cor secundária */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para o cabeçalho */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens à direita */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+  }
+  
+  nav li {
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+  }
+  
+  nav a {
+    color: #5a2d82; /* Cor secundária */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transição suave para o hover */
+    padding: 5px 10px; /* Padding para aumentar a área de clique */
+    border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  nav a:hover {
+    color: #fff; /* Cor de texto para o hover */
+    background-color: #7e42a5; /* Cor de fundo para o hover */
+  }
+  
+  #carrinho {
+    background-color: #5a2d82; /* Cor secundária */
+    color: #fff; /* Contraste para o texto do botão */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+    border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  
+  #sobre, #produtos {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .imagem img, .produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px; /* Bordas arredondadas para as imagens */
+  }
+
+  .imagem {
+    flex: 0 0 40%; /* Define a largura da imagem para 40% */
+    padding: 10px; /* Espaçamento ao redor da imagem */
+  }
+  
+  .texto, .produto {
+    flex-basis: calc(50% - 10px); /* Ajuste para margem entre colunas */
+    margin-bottom: 20px;
+  }
+  
+  #produtos .container {
+    justify-content: space-around;
+  }
+  
+  #produtos .produto {
+    flex-basis: 20%; /* Ajuste para 4 produtos por linha */
+    background-color: #f8f8f8; /* Fundo claro para os produtos */
+    padding: 10px;
+    border: 1px solid #eaeaea; /* Borda sutil para os produtos */
+    border-radius: 4px; /* Bordas arredondadas para os produtos */
+    margin: 10px; /* Espaçamento entre os produtos */
+  }
+  
+  button {
+    background-color: #5a2d82; /* Cor secundária */
+    color: #fff; /* Contraste para o texto do botão */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+ 
+  }
+  
+  button:hover {
+    background-color: #7e42a5; /* Um tom mais claro de roxo para o hover */
+  }
+  
